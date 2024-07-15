@@ -26,7 +26,7 @@
     <td></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="img11.png" alt="alt text" /></td>
+    <td colspan="2"><img src="img11.PNG" alt="alt text" /></td>
     <td style="text-align: center;">20대 직장인 커플</td>
   </tr>
   <tr>

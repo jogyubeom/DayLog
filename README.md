@@ -26,8 +26,8 @@
     <td></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="img11.PNG" alt="alt text" /></td>
-    <td style="text-align: center;">20대 직장인 커플</td>
+    <td colspan="2"><img src="image1.png" alt="alt text" /></td>
+    <td style="text-align: center; vertical-align: middle;">20대 직장인 커플</td>
   </tr>
   <tr>
     <td style="text-align: center;">특징</td>
@@ -50,8 +50,8 @@
     <td></td>
   </tr>
   <tr>
-    <td colspan="2"><img src="img1.png" alt="alt text" /></td>
-    <td style="text-align: center;">장거리 연애 커플</td>
+    <td colspan="2"><img src="image2.png" alt="alt text" /></td>
+    <td style="text-align: center; vertical-align: middle;">장거리 연애 커플</td>
   </tr>
   <tr>
     <td style="text-align: center;">특징</td>

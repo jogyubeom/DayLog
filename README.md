@@ -22,10 +22,9 @@
 ### 3. 타겟 / 페르소나
 <table>
   <tr>
-    <td colspan="2"><img src="image1.png" alt="alt text" /></td>
-    <div style="display: flex; align-items: center;">
-    <td style="text-align: center; font-size: 22px;">20대 직장인 커플</td>
-    </div>
+    <td colspan="3"><img src="image1.png" alt="alt text" />
+    <div style="text-align: center; font-size: 22px;">20대 직장인 커플</div>
+    </td>
   </tr>
   <tr>
     <td style="text-align: center;">특징</td>
@@ -43,10 +42,9 @@
 
 <table>
   <tr>
-    <td colspan="2"><img src="image2.png" alt="alt text" /></td>
-    <div style="display: flex; align-items: center;">
-    <td style="text-align: center; font-size: 22px;">장거리 연애 커플</td>
-    </div>
+    <td colspan="3"><img src="image2.png" alt="alt text" />
+    <div style="text-align: center; font-size: 22px;">장거리 커플</div>
+    </td>
   </tr>
   <tr>
     <td style="text-align: center;">특징</td>

@@ -23,7 +23,7 @@
 <table>
   <tr>
     <td colspan="3" style="text-align: center;">
-      <img src="image1.png" alt="image description" style="display: block; margin: 0 auto;" />
+      <img src="./image/img1.png" alt="image description" style="display: block; margin: 0 auto;" />
       <div style="font-size: 22px;">20대 직장인 커플</div>
     </td>
   </tr>
@@ -44,7 +44,7 @@
 <table>
   <tr>
     <td colspan="3" style="text-align: center;">
-      <img src="image2.png" alt="image description" style="display: block; margin: 0 auto;" />
+      <img src="./image/img2.png" alt="image description" style="display: block; margin: 0 auto;" />
       <div  style="font-size: 22px;">장거리 커플</div>
     </td>
   </tr>
@@ -96,17 +96,19 @@
 
 | 이름 | 역할 | 내용 |
 | --- | --- | --- |
-| 조성빈 | -- | -- |
-| 김예영 | -- | -- |
-| 한지훈 | -- | -- |
-| 김진우 | -- | -- |
-| 박준영 | -- | -- |
-| 조규범 | -- | -- |
+| 조성빈 | 팀 리더 | -- |
+| 한지훈 | Back-End 팀장 | -- |
+| 김예영 | Back-End 팀원 | -- |
+| 박준영 | Front-End 팀장 | -- |
+| 김진우 | Front-End 팀원 | -- |
+| 조규범 | Front-End 팀원 | -- |
 
-## 3. 기능명세서
+## 3. 기능명세서   
+![기능명세서](/image/Functional_Specification.png)
 
 
-## 4. API 명세서
+## 4. API 명세서   
+
 
 
 ## 5. Info Architecture
@@ -116,6 +118,10 @@
 
 
 ## 7. 와이어프레임   
+
+- 초안
+
+![와이어프레임](./image/wireframe.png)
 
 
 ## 8. 페이지 별 기능 설명

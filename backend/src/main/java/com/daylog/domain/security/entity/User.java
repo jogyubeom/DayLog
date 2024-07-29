@@ -23,7 +23,7 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(length = 20, nullable = false, unique = true)
+    @Column(length = 35, nullable = false, unique = true)
     private String email;
 
     @Column(length = 255, nullable = false)
@@ -53,7 +53,15 @@ public class User implements UserDetails {
     @Column(nullable = true, updatable = false)
     private String birthDate;
 
-
+    @PrePersist
+    private void prePersist() {
+        if (this.coupleCode == null || this.coupleCode.isEmpty()) {
+            this.coupleCode = generateRandomCode();
+        }
+        if (this.imagePath == null || this.imagePath.isEmpty()) {
+            this.imagePath = generateRandomImagePath();
+        }
+    }
 
     private static String generateRandomCode() {
         return UUID.randomUUID().toString().substring(0, 8);

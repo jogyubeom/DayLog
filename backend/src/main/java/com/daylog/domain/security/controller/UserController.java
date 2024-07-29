@@ -1,25 +1,23 @@
 package com.daylog.domain.security.controller;
 
+import com.daylog.domain.security.annotation.UserId;
 import com.daylog.domain.security.dto.JwtToken;
 import com.daylog.domain.security.dto.SignInDto;
 import com.daylog.domain.security.entity.User;
 import com.daylog.domain.security.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/users")
+@RequestMapping("/api")
 public class UserController {
 
     private final UserService userService;
 
-    @PostMapping("/sign-in")
+    @PostMapping("/login")
     public JwtToken signIn(@RequestBody SignInDto signInDto) {
         String email = signInDto.getEmail();
         String password = signInDto.getPassword();
@@ -29,14 +27,13 @@ public class UserController {
         return jwtToken;
     }
 
-    @PostMapping("/sign-up")
+    @PostMapping("/users")
     public User signUp(@RequestBody User user) {
         return userService.signUp(user);
     }
 
-    @PostMapping("/test")
-    public String test() {
-        return "success";
+    @GetMapping("/test")
+    public String test(@UserId int userId) {
+        return "UserID: " + userId;
     }
-
 }

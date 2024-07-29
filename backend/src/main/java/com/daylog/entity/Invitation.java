@@ -1,6 +1,6 @@
 package com.daylog.entity;
 
-import com.daylog.domain.user.entity.User;
+import com.daylog.domain.security.entity.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

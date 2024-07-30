@@ -32,6 +32,8 @@ public class UserController {
         return userService.signUp(user);
     }
 
+    @DeleteMapping("/users")
+
     @GetMapping("/test")
     public String test(@UserId int userId) {
         return "UserID: " + userId;

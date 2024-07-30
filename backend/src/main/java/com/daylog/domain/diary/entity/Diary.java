@@ -1,6 +1,7 @@
-package com.daylog.entity;
+package com.daylog.domain.diary.entity;
 
 import com.daylog.domain.security.entity.User;
+import com.daylog.entity.Couple;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,9 +19,11 @@ public class Diary {
     private int id;
 
     @ManyToOne
+    @JoinColumn(name = "couple_id")
     private Couple couple;
 
     @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
     @Column(columnDefinition = "TEXT", nullable = false)

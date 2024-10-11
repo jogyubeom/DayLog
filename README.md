@@ -96,17 +96,9 @@
 | 조성빈 | 팀 리더        | 테이블 설계, 유저 API 구현  | Spring Boot, MySQL, EC2, SpringBoot JPA  |
 | 한지훈 | Back-End 팀장  | 테이블 설계, 유저 API 구현 | Spring Boot, MySQL, EC2, SpringBoot JPA  |
 | 김예영 | Back-End 팀원  | API 작성  | Spring Boot, MySQL |
-| 박준영 | Front-End 팀장 |  REST API 수신 (알람, WebRTC),
-State 관리,
-WebRTC 통신  | Dart, Flutter |
-| 김진우 | Front-End 팀원 | Rest API 연결
-(user auth, theme)
-상태 적용 (Provider)
-비동기구현(async, await) | Dart, Flutter |
-| 조규범 | Front-End 팀원 | Rest API 연결
-(calendar, diary, theme)
-상태 적용 (Provider)
-비동기구현(async, await) | Dart, Flutter  |
+| 박준영 | Front-End 팀장 |  REST API 수신 (알람, WebRTC), State 관리, WebRTC 통신  | Dart, Flutter |
+| 김진우 | Front-End 팀원 | Rest API 연결(user auth, theme), 상태 적용 (Provider), 비동기구현(async, await) | Dart, Flutter |
+| 조규범 | Front-End 팀원 | Rest API 연결(calendar, diary, theme), 상태 적용 (Provider), 비동기구현(async, await) | Dart, Flutter  |
 
 ## 3. 기능명세서
 

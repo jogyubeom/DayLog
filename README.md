@@ -89,16 +89,24 @@
 
 ## 2. 팀원 정보 및 업무 분담
 
-- 프로젝트 기간 : 24.07.15 ~ 진행 중
+- 프로젝트 기간 : 24.07.15 ~ 24.08.16
 
-| 이름   | 역할           | 내용 |
-| ------ | -------------- | ---- |
-| 조성빈 | 팀 리더        | --   |
-| 한지훈 | Back-End 팀장  | --   |
-| 김예영 | Back-End 팀원  | --   |
-| 박준영 | Front-End 팀장 | --   |
-| 김진우 | Front-End 팀원 | --   |
-| 조규범 | Front-End 팀원 | --   |
+| 이름   | 역할           | 구현한 기능 | 기술 스택 |
+| ------ | -------------- | ---- | ---- |
+| 조성빈 | 팀 리더        | 테이블 설계, 유저 API 구현  | Spring Boot, MySQL, EC2, SpringBoot JPA  |
+| 한지훈 | Back-End 팀장  | 테이블 설계, 유저 API 구현 | Spring Boot, MySQL, EC2, SpringBoot JPA  |
+| 김예영 | Back-End 팀원  | API 작성  | Spring Boot, MySQL |
+| 박준영 | Front-End 팀장 |  REST API 수신 (알람, WebRTC),
+State 관리,
+WebRTC 통신  | Dart, Flutter |
+| 김진우 | Front-End 팀원 | Rest API 연결
+(user auth, theme)
+상태 적용 (Provider)
+비동기구현(async, await) | Dart, Flutter |
+| 조규범 | Front-End 팀원 | Rest API 연결
+(calendar, diary, theme)
+상태 적용 (Provider)
+비동기구현(async, await) | Dart, Flutter  |
 
 ## 3. 기능명세서
 
@@ -120,19 +128,3 @@
 
 ## 8. 페이지 별 기능 설명
 
-## 9. 알고리즘 기술적 설명 (추천 알고리즘)
-
-## 10. Project Gantt Chart
-
-## 11. 느낀점 후기
-
-- 나중에 작성
-
-| 이름   | 내용 |
-| ------ | ---- |
-| 조성빈 | --   |
-| 김예영 | --   |
-| 한지훈 | --   |
-| 김진우 | --   |
-| 박준영 | --   |
-| 조규범 | --   |
